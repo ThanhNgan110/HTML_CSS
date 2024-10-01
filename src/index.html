@@ -9,7 +9,58 @@
 </head>
 
 <body>
-  <include src="./layouts/header.html"></include>
+  <!-- Start header -->
+  <header>
+    <a href="#">
+      <img src="/src/assets/images/logo/logo.svg" alt="The Bridge">
+    </a>
+  </header>
+  <!-- End header -->
+
+  <div class="container">
+
+    <!-- Start section form -->
+    <h2 class="heading-primary">ベトナム企業一覧</h2>
+    <section class="section-form">
+      <form class="form">
+        <div class="group-input space-margin-input">
+          <div class="input-form">
+            <label>■ 業種</label>
+            <select class="select-option">
+              <option value="1">医療機</option>
+              <option value="2">医療機器</option>
+            </select>
+          </div>
+          <div class="input-form">
+            <label>■ 業種</label>
+            <select class="select-option">
+              <option value="1">医療機</option>
+              <option value="2">医療機器</option>
+            </select>
+          </div>
+        </div>
+        <div class="group-input">
+          <div class="input-form">
+            <label>■ 掲載目的</label>
+            <select class="select-option">
+              <option value="1">医療機</option>
+              <option value="2">医療機器</option>
+            </select>
+          </div>
+          <div class="input-form">
+            <label>■ キーワード</label>
+            <input class="input" type="text" placeholder="キーワードを入力する">
+          </div>
+        </div>
+        <div class="button-group">
+          <button class="btn btn-submit" type="submit">検　索（18件）</button>
+          <a href="#">検索条件をクリア</a>
+        </div>
+      </form>
+    </section>
+    <!-- End section form -->
+  </div>
 </body>
+
 
 </html>
