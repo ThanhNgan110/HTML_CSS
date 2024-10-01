@@ -4,10 +4,6 @@
   border-radius: 10px;
 }
 
-.form {
-  margin-top: 40px;
-}
-
 .group-input {
   display: flex;
   gap: 24px;
