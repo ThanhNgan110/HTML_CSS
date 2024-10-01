@@ -1,0 +1,15 @@
+:root {
+  /* Font family */
+  --ff-default: "Noto Sans JP";
+  
+  /* Font weight */
+  --fw-bold: 700;
+  --fw-normal: 400;
+
+  /* Font size */
+  --fs-x-large: 32px;
+  --fs-large: 24px;
+  --fs-medium: 18px;
+  --fs-small: 16px;
+  --fs-x-small: 12px;
+}
