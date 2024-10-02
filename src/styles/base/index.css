@@ -1,3 +1,4 @@
-@import "../base/reset.css";
-@import "../base/variables.css";
-@import "../base/flex.css";
+@import "./base.css";
+@import "./variables.css";
+@import "./flex.css";
+@import "./reset.css";
