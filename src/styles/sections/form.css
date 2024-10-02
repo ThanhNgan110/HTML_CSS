@@ -1,7 +1,8 @@
 .section-form {
   background: var(--color-white);
-  padding: 32px 102px;
+  padding: 37px 102px;
   border-radius: 10px;
+  box-shadow: var(--box-shadow-card);
 }
 
 .group-input {
@@ -12,7 +13,7 @@
 .input-form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 18px;
 }
 
 .input,
