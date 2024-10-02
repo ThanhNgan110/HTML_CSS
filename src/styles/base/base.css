@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: var(--ff-default);
+  font-family: "Noto Sans JP";
+  font-size: 1.6rem;
 }
