@@ -1,0 +1,22 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-small {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-previous {
+  background-image: url("/src/assets/images/icons/icon-next.svg");
+}
+
+.icon-next {
+  background-image: url("/src/assets/images/icons/icon-previous.svg");
+}
+
+.icon-food {
+  background-image: url("/src/assets/images/icons/icon-food.svg");
+}
