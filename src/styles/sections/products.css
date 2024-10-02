@@ -1,0 +1,100 @@
+.section-products {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.product-item {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: var(--box-shadow-card);
+}
+
+.products-infor {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.new-badge {
+  padding: 6px 10px;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  border-radius: 5px;
+  line-height: 20px;
+}
+
+.company-info {
+  font-size: var(--fs-small);
+  line-height: 22.4px;
+  font-weight: var(--fw-normal);
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.tag {
+  color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  font-weight: var(--fw-normal);
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+.block-infor {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.item-infor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.item-1 {
+  padding: 7px 109px;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.item-2 {
+  padding: 7px 259px;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.infor-location,
+.infor-capital {
+  font-weight: var(--fw-normal);
+  font-size: var(--fs-medium);
+  line-height: 25.2px;
+}
+
+.name {
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: var(--fw-normal);
+  line-height: 22.4px;
+}
+
+.product-item-2 {
+  background-color: var(--color-border);
+  padding: 222px 428px;
+  text-align: center;
+}
+
+.name-item {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-x-large);
+}
