@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  border-top: 2px solid var(--color-blue);
+  padding-top: 24px;
+  gap: 39px;
+}
+
+.card-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  width: 258px;
+  height: 258px;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 17px 65px;
+  background-color: var(--color-blue);
+}
+
+.card-title {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-large);
+  line-height: 33.6px;
+  margin-bottom: 16px;
+}
+
+.card-text {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-large);
+  line-height: 33.6px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  border-top: 2px dashed var(--color-blue);
+}
+
+.card-description {
+  font-size: var(--fs-small);
+  font-weight: var(--fw-normal);
+  line-height: 22.4px;
+}
