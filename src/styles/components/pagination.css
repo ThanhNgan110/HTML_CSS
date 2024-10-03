@@ -2,7 +2,7 @@
   color: var(--color-border);
   justify-content: center;
   align-items: center;
-  gap: 21px;
+  gap: 20px;
   margin: 32px 0;
   display: flex;
 }
