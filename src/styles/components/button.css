@@ -7,9 +7,9 @@
 
 .btn-submit {
   background-color: var(--color-secondary);
-  border-radius: 53px;
   color: var(--color-white);
-  padding: 16px 184px;
   font-weight: var(--fw-normal);
+  border-radius: 53px;
+  padding: 16px 184px;
   font-size: 20px;
 }
