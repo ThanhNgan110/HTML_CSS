@@ -1,12 +1,18 @@
 .footer {
   text-align: center;
-  padding-top: 48px;
+  padding-top: 50px;
   padding-bottom: 29px;
 }
 
+.logo {
+  max-width: 176px;
+  height: 70px;
+}
+
 .copy-right {
-  margin-top: 52px;
   color: #515151;
   font-size: var(--fs-x-small);
   font-weight: var(--fw-normal);
+  margin-top: 50px;
+  text-align: center;
 }
