@@ -10,10 +10,14 @@
 }
 
 .icon-previous {
+  width: 10px;
+  height: 12px;
   background-image: url("/src/assets/images/icons/icon-next.svg");
 }
 
 .icon-next {
+  width: 10px;
+  height: 12px;
   background-image: url("/src/assets/images/icons/icon-previous.svg");
 }
 
