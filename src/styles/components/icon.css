@@ -9,6 +9,11 @@
   height: 24px;
 }
 
+.icon-medium {
+  width: 80px;
+  height: 80px;
+}
+
 .icon-previous {
   width: 10px;
   height: 12px;
@@ -23,4 +28,21 @@
 
 .icon-food {
   background-image: url("/src/assets/images/icons/icon-food.svg");
+}
+
+.icon-arrow-left {
+  background-image: url("/src/assets/images/icons/arrow-left-circle.svg");
+}
+
+.icon-arrow-right {
+  background-image: url("/src/assets/images/icons/arrow-right-circle.svg");
+}
+
+.icon-play-circle {
+  width: 150px;
+  height: 150px;
+  background-image: url("/src/assets/images/icons/icon-circle.svg");
+  position: absolute;
+  top: 37%;
+  left: 42.5%;
 }

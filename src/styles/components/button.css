@@ -2,14 +2,47 @@
   display: inline-block;
   cursor: pointer;
   font-weight: var(--fw-normal);
+  background-color: var(--color-white);
   border: none;
 }
 
-.btn-submit {
+.btn-primary {
   background-color: var(--color-secondary);
   color: var(--color-white);
   font-weight: var(--fw-normal);
   border-radius: 53px;
   padding: 16px 184px;
   font-size: 20px;
+}
+
+.btn-arrow-left {
+  background-color: var(--color-primary);
+  padding: 0;
+  position: absolute;
+  bottom: -61px;
+  left: 12.5%;
+}
+
+.btn-arrow-right {
+  background-color: var(--color-primary);
+  padding: 0;
+  position: absolute;
+  bottom: -61px;
+  right: 12.5%;
+}
+
+.btn-left {
+  position: absolute;
+  /* background-color: var(--color-white); */
+  top: 39%;
+  left: 2.9%;
+  padding: 0;
+}
+
+.btn-right {
+  position: absolute;
+  /* background-color: var(--color-white); */
+  right: 2.9%;
+  top: 39%;
+  padding: 0;
 }

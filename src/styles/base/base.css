@@ -9,4 +9,5 @@ html {
 body {
   font-family: "Noto Sans JP";
   font-size: 1.6rem;
+  background-color: var(--color-primary);
 }

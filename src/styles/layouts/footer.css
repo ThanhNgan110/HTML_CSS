@@ -2,6 +2,7 @@
   text-align: center;
   padding-top: 50px;
   padding-bottom: 29px;
+  background-color: var(--color-white);
 }
 
 .logo {

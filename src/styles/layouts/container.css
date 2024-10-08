@@ -2,3 +2,8 @@
   padding: 67px 360px 49px;
   background-color: var(--color-primary);
 }
+
+.container-1 {
+  background-color: var(--color-primary);
+  padding: 0 360px;
+}
