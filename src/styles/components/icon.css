@@ -39,10 +39,10 @@
 }
 
 .icon-play-circle {
+  background-image: url("/src/assets/images/icons/icon-circle.svg");
   width: 150px;
   height: 150px;
-  background-image: url("/src/assets/images/icons/icon-circle.svg");
   position: absolute;
-  top: 37%;
+  top: 36%;
   left: 42.5%;
 }

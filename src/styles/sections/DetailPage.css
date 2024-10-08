@@ -1,6 +1,6 @@
 .carousel-item {
-  max-width: 996px;
-  height: 560px;
+  /* max-width: 1025px; */
+  max-height: 560px;
   position: relative;
 }
 

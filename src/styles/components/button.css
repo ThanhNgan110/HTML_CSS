@@ -19,7 +19,7 @@
   background-color: var(--color-primary);
   padding: 0;
   position: absolute;
-  bottom: -61px;
+  bottom: -82px;
   left: 12.5%;
 }
 
@@ -27,13 +27,12 @@
   background-color: var(--color-primary);
   padding: 0;
   position: absolute;
-  bottom: -61px;
+  bottom: -82px;
   right: 12.5%;
 }
 
 .btn-left {
   position: absolute;
-  /* background-color: var(--color-white); */
   top: 39%;
   left: 2.9%;
   padding: 0;
@@ -41,7 +40,6 @@
 
 .btn-right {
   position: absolute;
-  /* background-color: var(--color-white); */
   right: 2.9%;
   top: 39%;
   padding: 0;
