@@ -2,6 +2,7 @@
   font-weight: var(--fw-bold);
   font-size: var(--fs-x-large);
   text-align: center;
+  margin-top: 64px;
   margin-bottom: 49px;
 }
 
@@ -10,5 +11,4 @@
   font-size: var(--fs-large);
   background-color: var(--color-blue);
   padding: 23px 40px;
-  /* border-radius: 10px 10px 0 0; */
 }
