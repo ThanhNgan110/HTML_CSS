@@ -20,7 +20,7 @@
   background-color: var(--color-primary);
   padding: 0;
   position: absolute;
-  bottom: -82px;
+  bottom: -37%;
   left: 12.5%;
 }
 
@@ -28,7 +28,7 @@
   background-color: var(--color-primary);
   padding: 0;
   position: absolute;
-  bottom: -82px;
+  bottom: -37%;
   right: 12.5%;
 }
 
