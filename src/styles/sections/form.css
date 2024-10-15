@@ -2,7 +2,7 @@
   background: var(--color-white);
   box-shadow: var(--box-shadow-card);
   border-radius: 10px;
-  padding: 34px 102px;
+  padding: 36px 102px;
 }
 
 .group-input {
