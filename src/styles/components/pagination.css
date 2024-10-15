@@ -17,6 +17,10 @@
   display: flex;
 }
 
+.page-item:hover {
+  background-color: var(--color-secondary);
+}
+
 .active {
   background-color: var(--color-secondary);
 }
@@ -26,7 +30,7 @@
   padding: 9px 15px;
 }
 
-.page-link.active {
+.page-link:hover {
   color: var(--color-white);
 }
 
