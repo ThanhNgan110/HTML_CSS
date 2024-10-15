@@ -9,6 +9,8 @@
   <!-- font -->
   <link rel="stylesheet" href="./assets/font/stylesheet.css">
   <link rel="icon" href="./assets/images/logo/logo.svg">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,12 +31,17 @@
         <img src="./assets/images/slide/slide.png" alt="Second Slide" />
         <span class="icon icon-play-circle"></span>
       </div>
+
+      <div class="carousel-item active">
+        <img src="./assets/images/product/product-1.jpg" alt="Second Slide" />
+        <span class="icon icon-play-circle"></span>
+      </div>
       <div class="btn-group">
-        <button class="btn btn-arrow-left">
+        <button id="btn-left" class="btn btn-arrow-left">
           <span class="icon icon-medium icon-arrow-left">
           </span>
         </button>
-        <button class="btn btn-arrow-right">
+        <button id="btn-right" class="btn btn-arrow-right">
           <span class="icon icon-medium icon-arrow-right">
           </span>
         </button>
@@ -213,6 +220,7 @@
     </div>
   </footer>
   <!-- End footer -->
+  <script src="/src/script/index.js"></script>
 </body>
 
 </html>
