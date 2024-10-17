@@ -1,6 +1,8 @@
 .carousel-item {
+  display: flex;
   max-height: 560px;
   position: relative;
+  transition: 0.5s;
 }
 
 .carousel-item.active {
@@ -8,10 +10,19 @@
 }
 
 .carousel-inner {
-  flex-direction: column;
+  /* flex-direction: column;
   align-items: center;
   padding-top: 50px;
   display: flex;
+  overflow: hidden; */
+
+  width: 1026px;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  padding-top: 50px;
+  /* display: flex; */
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .section-introduce {
