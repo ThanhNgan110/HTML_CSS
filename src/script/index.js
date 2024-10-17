@@ -17,7 +17,6 @@ const handleChangeSlide = () => {
   } else {
     current++;
     let width = imgs[0].offsetWidth;
-    console.log("width", width);
 
     listImages.style.transform = `translateX(${width * -1 * current}px)`;
   }
