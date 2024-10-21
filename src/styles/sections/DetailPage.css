@@ -10,17 +10,8 @@
 }
 
 .carousel-inner {
-  /* flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
-  display: flex;
-  overflow: hidden; */
-
   width: 1026px;
-  /* flex-direction: column; */
-  /* align-items: center; */
   padding-top: 50px;
-  /* display: flex; */
   overflow: hidden;
   margin: 0 auto;
 }
@@ -129,14 +120,12 @@ article > p {
 }
 /* End section */
 
-/*  */
 .btn-wrapper {
   text-align: center;
   background-color: var(--color-primary);
   margin: 43px 0;
 }
 
-/*  */
 
 /* Start section product  */
 .article-label {
@@ -203,13 +192,14 @@ article > p {
   background-color: var(--color-white);
   padding: 40px 0;
   position: relative;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .border {
   border-radius: 10px;
   overflow: hidden;
-  margin-top: 32px;
+  margin-top: 39px;
+  box-shadow: var(--box-shadow-card);
 }
 
 /* End section product */

@@ -9,18 +9,19 @@
   <!-- font -->
   <link rel="stylesheet" href="./assets/font/stylesheet.css">
   <link rel="icon" href="./assets/images/logo/logo.svg">
-  <!-- <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script> -->
 </head>
 
 <body>
   <!-- Start header -->
-  <header>
-    <h1>
-      <a href="#">
-        <img src="/src/assets/images/logo/logo.svg" alt="The Bridge">
-      </a>
-    </h1>
+  <header class="main-header">
+    <div class="container header-container">
+      <h1>
+        <a href="#">
+          <img src="/src/assets/images/logo/logo.svg" alt="The Bridge">
+        </a>
+      </h1>
+    </div>
+
   </header>
   <!-- End header -->
 
@@ -32,11 +33,6 @@
         <img class="img" src="./assets/images/slide/slide.png" alt="Second Slide" />
         <span class="icon icon-play-circle"></span>
       </div>
-
-      <!-- <div class="carousel-item active">
-        <img src="./assets/images/slide/slide.png" alt="Second Slide" />
-        <span class="icon icon-play-circle"></span>
-      </div> -->
       <div class="btn-group">
         <button id="btn-left" class="btn btn-arrow-left">
           <span class="icon icon-medium icon-arrow-left">
@@ -65,7 +61,7 @@
   </section>
 
   <section class="container">
-    <table>
+    <table class="border">
       <thead class="thead">
         <tr>
           <th colspan="2">会社概要</th>
@@ -132,86 +128,90 @@
     <button class="btn btn-primary" type="button">一覧へ戻る</button>
   </div>
 
-  <!-- Start  -->
-  <article class="container">
-    <h3 class="heading-secondary">同業種の企業一覧</h3>
-    <div class="wrapper-list-product">
-      <div class="list-product">
-        <article>
-          <div class="article-img">
-            <img src="/src/assets/images/product/product-1.jpg" alt="Product" />
-          </div>
-          <div class="article-label">
-            <span class="icon icon-small icon-food"></span>
-            <p class="name">飲食店・食品</p>
-          </div>
-          <div class="article-body">
-            <h4>Tr'Đin product company（社名）</h4>
-            <p>ここにタイトルが入りますここにタイトルが入りますここにタイトルが入りますここに...</p>
-            <div>
-              <p>業種：洋食レストラン</p>
-              <p>地域：ダナン市</p>
+  <!-- Start list product -->
+  <section class="container ">
+    <article class="border">
+      <h3 class="heading-secondary">同業種の企業一覧</h3>
+      <div class="wrapper-list-product">
+        <div class="list-product">
+          <article>
+            <div class="article-img">
+              <img src="/src/assets/images/product/product-1.jpg" alt="Product" />
             </div>
-          </div>
-        </article>
+            <div class="article-label">
+              <span class="icon icon-small icon-food"></span>
+              <p class="name">飲食店・食品</p>
+            </div>
+            <div class="article-body">
+              <h4>Tr'Đin product company（社名）</h4>
+              <p>ここにタイトルが入りますここにタイトルが入りますここにタイトルが入りますここに...</p>
+              <div>
+                <p>業種：洋食レストラン</p>
+                <p>地域：ダナン市</p>
+              </div>
+            </div>
+          </article>
 
-        <article>
-          <div class="article-img">
-            <img src="/src/assets/images/product/product-1.jpg" alt="Product" />
-          </div>
-          <div class="article-label">
-            <span class="icon icon-small icon-food"></span>
-            <p class="name">飲食店・食品</p>
-          </div>
-          <div class="article-body">
-            <h4>Tr'Đin product company（社名）</h4>
-            <p>ここにタイトルが入りますここにタイトルが入りますここにタイトルが入りますここに...</p>
-            <div>
-              <p>業種：洋食レストラン</p>
-              <p>地域：ダナン市</p>
+          <article>
+            <div class="article-img">
+              <img src="/src/assets/images/product/product-1.jpg" alt="Product" />
             </div>
-          </div>
-        </article>
+            <div class="article-label">
+              <span class="icon icon-small icon-food"></span>
+              <p class="name">飲食店・食品</p>
+            </div>
+            <div class="article-body">
+              <h4>Tr'Đin product company（社名）</h4>
+              <p>ここにタイトルが入りますここにタイトルが入りますここにタイトルが入りますここに...</p>
+              <div>
+                <p>業種：洋食レストラン</p>
+                <p>地域：ダナン市</p>
+              </div>
+            </div>
+          </article>
 
-        <article>
-          <div class="article-img">
-            <img src="/src/assets/images/product/product-1.jpg" alt="Product" />
-          </div>
-          <div class="article-label">
-            <span class="icon icon-small icon-food"></span>
-            <p class="name">飲食店・食品</p>
-          </div>
-          <div class="article-body">
-            <h4>Tr'Đin product company（社名）</h4>
-            <p>ここにタイトルが入りますここにタイトルが入りますここにタイトルが入りますここに...</p>
-            <div>
-              <p>業種：洋食レストラン</p>
-              <p>地域：ダナン市</p>
+          <article>
+            <div class="article-img">
+              <img src="/src/assets/images/product/product-1.jpg" alt="Product" />
             </div>
-          </div>
-        </article>
+            <div class="article-label">
+              <span class="icon icon-small icon-food"></span>
+              <p class="name">飲食店・食品</p>
+            </div>
+            <div class="article-body">
+              <h4>Tr'Đin product company（社名）</h4>
+              <p>ここにタイトルが入りますここにタイトルが入りますここにタイトルが入りますここに...</p>
+              <div>
+                <p>業種：洋食レストラン</p>
+                <p>地域：ダナン市</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <ul class="dots">
+          <li class="dot-item active"></li>
+          <li class="dot-item"></li>
+          <li class="dot-item"></li>
+          <li class="dot-item"></li>
+          <li class="dot-item"></li>
+        </ul>
+
+        <div class="btn-group">
+          <button class="btn btn-left">
+            <span class="icon icon-medium icon-arrow-left">
+            </span>
+          </button>
+          <button class="btn btn-right">
+            <span class="icon icon-medium icon-arrow-right">
+            </span>
+          </button>
+        </div>
       </div>
-      <ul class="dots">
-        <li class="dot-item active"></li>
-        <li class="dot-item"></li>
-        <li class="dot-item"></li>
-        <li class="dot-item"></li>
-        <li class="dot-item"></li>
-      </ul>
+    </article>
 
-      <div class="btn-group">
-        <button class="btn btn-left">
-          <span class="icon icon-medium icon-arrow-left">
-          </span>
-        </button>
-        <button class="btn btn-right">
-          <span class="icon icon-medium icon-arrow-right">
-          </span>
-        </button>
-      </div>
-    </div>
-  </article>
-  <!-- End  -->
+  </section>
+
+  <!-- End list product  -->
 
   <!-- Start footer -->
   <footer>
