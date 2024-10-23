@@ -21,13 +21,14 @@
   background-color: var(--color-secondary);
 }
 
-.active {
+.page-link.active {
   background-color: var(--color-secondary);
 }
 
 .page-link {
   color: var(--color-border);
-  padding: 9px 15px;
+  padding: 12px 15px;
+  border-radius: 13px;
 }
 
 .page-link:hover {
