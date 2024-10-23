@@ -16,6 +16,11 @@
   box-shadow: 0px 5px 0px 0px #d05700;
 }
 
+.btn-primary:hover {
+  background-color: var(--color-yellow);
+  transition: 0.8s;
+}
+
 .btn-arrow-left {
   background-color: var(--color-primary);
   padding: 0;

@@ -19,16 +19,22 @@
 
 .page-item:hover {
   background-color: var(--color-secondary);
+  color: var(--color-white);
 }
 
 .page-link.active {
   background-color: var(--color-secondary);
+  color: var(--color-white);
 }
 
 .page-link {
   color: var(--color-border);
-  padding: 12px 15px;
-  border-radius: 13px;
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .page-link:hover {
